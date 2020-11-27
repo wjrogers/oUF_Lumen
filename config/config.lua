@@ -14,3 +14,8 @@ cfg.units.nameplate.show = false
 cfg.units.party.show = false
 cfg.units.raid.show = false
 
+-- position castbar relative to player frame, not action bars
+cfg.units.player.castbar.pos.a1 = "TOPLEFT"
+cfg.units.player.castbar.pos.a2 = "BOTTOMLEFT"
+cfg.units.player.castbar.pos.af = "oUF_LumenPlayer"
+cfg.units.player.castbar.pos.y = -40
