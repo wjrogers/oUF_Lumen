@@ -19,3 +19,7 @@ cfg.units.player.castbar.pos.a1 = "TOPLEFT"
 cfg.units.player.castbar.pos.a2 = "BOTTOMLEFT"
 cfg.units.player.castbar.pos.af = "oUF_LumenPlayer"
 cfg.units.player.castbar.pos.y = -40
+
+-- disable target & focus castbar, covers too much prime real estate
+cfg.units.focus.castbar.enable = false
+cfg.units.target.castbar.enable = false
