@@ -45,7 +45,7 @@ local function CreatePlayer(self)
     -- Auras
     lum:SetDebuffAuras(self, frame, 12, 12, cfg.frames.main.height + 4, 4,
                        "BOTTOMRIGHT", self, "BOTTOMLEFT", -56, -2,
-                       "BOTTOMRIGHT", nil, "UP", true)
+                       "BOTTOMRIGHT", nil, "DOWN", true)
 
     lum:SetBarTimerAuras(self, frame, 12, 12, 24, 2, "BOTTOMLEFT", self,
                          "TOPLEFT", -2, cfg.frames.secondary.height + 32,
